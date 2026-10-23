@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="HTML Project1" content="width=device-width, initial-scale=1.0">
+    <title>My Idol</title>
+</head>
+<body>
+    <h1 style="color: blue;" align="center">
+        Vincent van Gogh
+    </h1>
+    <nav align="center">
+        <a href="#about-description">Description</a>|
+        <a href="#about-artworks">Artworks</a>|
+        <a href="#about-register">Register</a>|
+    </nav>
+
+    <br><br>
+    <table border="1" cellspacing="0" cellpadding="25" align="center">
+        <thead>
+            <tr>
+                <th colspan="3" align="center">Biography</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td rowspan="6" align="center">
+                    <img src="images/VG Potrait Photo.jpg" alt="" width="250">
+                </td>
+                <td>Born</td>
+                <td>30 March 1853, Zundert, North Brabant, Netherlands</td>
+            </tr>
+            <tr>
+                <td>Died</td>
+                <td>29 July 1890 (aged 37) Auvers-sur-Oise, Val-d'Oise, France</td>
+            </tr>
+            <tr>
+                <td>Cause of death</td>
+                <td>Self-inflicted gunshot wound to the chest</td>
+            </tr>
+            <tr>
+                <td>Education</td>
+                <td>Royal Academy of Fine Arts, Académie Royale des Beaux-Arts</td>
+            </tr>
+            <tr>
+                <td>Years active</td>
+                <td>1881-1890</td>
+            </tr>
+            <tr>
+                <td>Movement</td>
+                <td>Post-Impressionism</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+    <h1 align="center" id="about-description" >Description</h1>
+    <p aligh="center" style="text-indent: 50px;">
+        Vincent van Gogh (1853-1890) was a Dutch Post-Impressionist painter and one of the most influential artists in modern history. Born in the Netherlands, he worked as an art dealer, teacher, and missionary before becoming a full-time artist in his late twenties. Although he struggled with poverty and mental health problems throughout his life, he produced around 900 paintings, including famous works such as The Starry Night, Sunflowers, and Irises. His distinctive style, characterized by vivid colors, bold brushstrokes, and emotional expression, had a major influence on modern art. Van Gogh died in France at the age of 37, and although he achieved little commercial success during his lifetime, his work became internationally celebrated after his death.
+    </p>
+
+    <h4 align="center">How Vincent van Gogh Became a Painter</h4>
+    <p style="text-indent: 50px;">Vincent van Gogh did not become a painter overnight. Before dedicating his life to art, he experienced several different careers and went through many personal struggles. His journey to becoming a painter was gradual, shaped by his passion for art, self-study, and years of practice.</p>
+
+    <ol type="1">
+        <li>Early Career - He first worked as an art dealer and later as a teacher and missionary.</li>
+        <li>Discovering His Passion - Through his work and life experiences, he developed a strong interest in art and decided to become an artist.</li>
+        <li>Starting to Draw - In his late twenties, he began seriously studying and practicing drawing.</li>
+        <li>Learning Art - He mostly taught himself by studying books, copying artworks, and practicing constantly.</li>
+        <li>Developing His Style - He experimented with different techniques and gradually developed his distinctive use of bold brushstrokes and strong colors.</li>
+        <li>Becoming a Professional Artist - He devoted the final years of his life entirely to painting, producing many of his most famous works.</li>
+
+         </ol>
+         
+        <br><br>
+        <hr>
+    <h1 id="about-artworks" align="center">Artworks</h1>
+    <p style="text-indent: 50px;">Vincent van Gogh's artworks became famous for several reasons. His paintings are known for their bold colors, expressive brushstrokes, and unique style, which allowed him to express deep emotions through art. He often used bright colors and swirling patterns to represent his feelings and the world around him. His personal struggles and life experiences also influenced his artwork, making his paintings emotionally powerful and meaningful. Although he received little recognition during his lifetime, his works gained popularity after his death because of their originality and influence on modern art. Today, paintings such as The Starry Night, Sunflowers, and Irises are celebrated worldwide for their beauty, creativity, and emotional depth.</p>
+    <br><br>
+
+    <div style="display: flex; justify-content: space-around; text-align: center; gap: 10px;">
+  
+  <!-- image ကို အတန်းလိုက်ဘေးတိုက်ဖြစ်ရန် -->
+  <div>
+    <img src="images/a wheat field with crows.jpg" alt="Wheat Field" width="200">
+    <p>A Wheat Field with Crows</p>
+  </div>
+
+  <div>
+    <img src="images/Bedroom in Arles.jpg" alt="Bedroom" width="200">
+    <p>Bedroom in Arles</p>
+  </div>
+
+  <div>
+    <img src="images/Sanflowers.jpg" alt="Sunflowers" width="200" >
+    <p>Sunflowers</p>
+  </div>
+
+  <div>
+    <img src="images/Starry Night.jpg" alt="Starry Night" width="200" >
+    <p>Starry Night</p>
+  </div>
+
+  <div>
+    <img src="images/At Eternity's Gate.jpg" alt="At Eternity's Gate" width="200">
+    <p>At Eternity's Gate</p>
+  </div>
+</div>
+<br><br>
+<hr>
+<br>
+ <h1 id="about-register" align="center">Register of Van Gogh's Memorial Art Exhibition</h1>
+<form action="request.php" method="get" align="center">
+    <label for="name">Name</label>
+    <input type="text" name="Guestname" id="name">
+    <br><br>
+    <label for="email">Email</label>
+    <input type="text" name="GuestEmail" id="email">
+    <br><br>
+    <label for="phone">Phone</label>
+    <input type="number" name="Guestphone" id="phone">
+    <br><br>
+    <label for="date">Appointment Date</label>
+    <input type="date" name="Guestdate" id="date">
+    <br><br>
+    <button type="submit">Register</button>
+    <br><br>
+    <hr>
+    <footer>
+        <p align="center">&copy; Copyright. All reserved. In Remembrance of Van Gogh &hearts;</p>
+        <p>by Khin Khin Aye</p>
+    </footer>
+</form>
+</body>
+</html>
